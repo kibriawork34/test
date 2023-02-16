@@ -87,7 +87,8 @@
         padding-top: 5px;
         margin-left: 2px;
         font-size: 15px;
-        color: hsla(308, 68%, 79%, 0.871);
+        /* color: hsla(308, 68%, 79%, 0.871); */
+        color: white;
     text-align: center;}
 
 
