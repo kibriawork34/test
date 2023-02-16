@@ -1,0 +1,294 @@
+        
+
+            
+        /* Mobile devices: 320px - 480px
+        Tablets: 768px - 1024px
+        Desktops: 1200px - 1440px */
+            
+        
+
+        .megabanner {
+            height: 100px;
+            background: #188fff;}
+
+        .megabanner p {
+            font-size: 90px;
+            color: white;
+            font-family: sans-serif;
+            letter-spacing: 15px;
+            font-weight: bolder;
+            margin: 0;
+            padding: 5px;
+            text-align: center;}
+
+        
+
+        #lomnugn{
+            /* border: 2px brown solid; */
+            height: 200px;
+            display: flex;
+        }
+        .mnugn{
+            /* border: 2px black solid; */
+            height: 200px;width: 1000px;}
+
+
+            
+        .slgnbx{
+            /* border: 2px blue solid; */
+            background-color: hsl(175, 100%, 45%);
+            height: 100px;width: auto;}
+        .slgnbx p{
+            color:blue;
+            text-align: center;
+            font-size: 30px;
+            font-family: sans-serif;}
+
+
+
+        .mnubx{
+            border: 2px blueviolet solid;
+            height: 100px; width: auto;
+        }
+        
+    .nav-item a {
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    
+
+
+
+
+
+.bckgrnd{ 
+    background-color:hsla(308, 68%, 79%, 0.871);
+    height: auto;
+}
+
+
+
+
+.srvbox{
+    margin: 15px;
+    background-color: blueviolet;
+    border-top-left-radius: 25px ;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: auto;
+    width: 300px;
+    
+
+    
+} 
+    .srvbox p{
+        padding-top: 5px;
+        margin-left: 2px;
+        font-size: 15px;
+        color: hsla(308, 68%, 79%, 0.871);
+    text-align: center;}
+
+
+
+.pair{display: flex;}
+
+
+.bbx{
+    /* border: 3px solid black; */
+    height: 1400px;width: 100%;
+display: flex;}
+
+.lftxtbx{
+    /* border: 5px solid red; */
+height: 1400;width: 60%;}
+.rgtbx{
+    /* border: 5px solid blue; */
+    height: 1400px;width: 40%;
+    }
+    #estimatebx{
+    /* border: 5px solid red; */
+    height: 300px;
+    width: auto;
+    border-radius: 25px;
+    background-color: hsl(30, 20%, 94%);
+    }
+    #ergentbx{
+        /* border: 3px solid red; */
+        height: 1000px;width: auto;}
+
+
+        body {
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        
+        .signup-form {
+            width: 300px;
+            margin: 0 auto;
+            padding: 30px 0;
+            font-size: 15px;
+        }
+        
+        .signup-form form {
+            color: black;
+            border-radius: 3px;
+            margin-bottom: 15px;
+            background:white;
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+        }
+        
+        .signup-form .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .signup-form input[type="checkbox"] {
+            margin-top: 3px;
+        }
+        .form-message
+        {
+            height: 300px;
+            width: 250px;
+            box-shadow: none;
+            color: #6806e7;
+        }    
+
+
+
+/* #txtbox{border: 2px solid red;padding: 25px;box-sizing: border-box;float: left;}
+
+#txtbox #left{border: 2px solid yellow;width: 50%;float: left;padding: 25px;box-sizing: border-box;}
+
+#txtbox #ntcbrd{border: 5px solid blueviolet;width: 50%;float: left;padding: 25px;box-sizing: border-box;} */ 
+
+
+/* .txtbox { 
+    width: 250px; height: 3000px;background-color: chocolate;}
+    .txtbox.txt{}
+.txtbox.txt p{text-align: left;font-size: 15px; font-family: 'Arial Narrow';} */
+
+
+
+/* .ntcbrdinput{float: left;}
+
+.ntcbrd { float: left;
+    width: 75px; height:100px;  ; border: 5px solid red; 
+    border-top-left-radius: 15px ;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px ;
+    border-bottom-right-radius: 15px;}
+    .ntcbrd p{font-size: 10px;}
+.input{
+    width: 75px; height:350px;  ; border: 5px solid blueviolet; 
+    border-top-left-radius: 15px ;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px ;
+    border-bottom-right-radius: 15px;} */
+
+
+
+
+
+.foot{width: 100%; height:40px;background-color: #188fff;}
+.foot p{font-size: 25px ;
+    font-family: 'Times New Roman'; 
+    color: white;
+padding-top: 2px;
+text-align: center;}
+
+
+
+    /*border-right: none;
+    font-size: 26px;
+            
+    float: left;
+    
+    border-top-left-radius: 25px ;
+    border-bottom-left-radius: 25px;*/
+
+
+            /* this curly braces is end of 480 screen size */      
+/*responsive:320/480
+@media (min-width: 320px) and (max-width:480px) {
+    .megabanner{ height: 55px; width: 100%; }
+    .megabanner p{font-size: 30px;color:white;}
+    .slogan h1{padding-top: 1.2%;font-size: 10px;}*/
+    
+
+    /*for i phone 12 screen landscape*/
+   /* @media (min-width: 481px) and (max-width:845px) {
+        .megabanner{ height: 55px; width: 100%; }
+        .megabanner p{font-size: 30px;color:white;}
+        .slogan h1{padding: top 5%; font-size: 18px;}
+        
+    
+    } */
+    /* .box{border: 3px solid red;width:1080px;height: 100px;
+    } */
+
+    @media (max-width: 767px) {
+        .megabanner p {
+            font-size: 35px;
+        }
+        #lomnugn{
+            /* border: 2px brown solid; */
+            height: 200px;
+            display: flex;
+        }
+
+      .bckgrndbox { 
+        /* border: 2px red solid; */
+        width: 400px;
+        height: 200px;
+        overflow: hidden;
+                }
+      
+      .bckgrndbox img {
+        width: 210%;
+        height: 440px;
+      }
+
+      .slgnbx p {
+        font-size: 24px;
+        padding-top: 10px;
+      }
+    }
+    
+    @media (max-width: 1024px) {
+        .megabanner p {
+            font-size: 35px;
+        }
+
+      .bckgrndbox { 
+        /* border: 2px red solid; */
+        width: 400px;
+        height: 200px;
+        overflow: hidden;
+                }
+      
+      .bckgrndbox img {
+        width: 210%;
+        height: 440px;
+      }   
+    }
+    @media (max-width: 1440px) {
+        .megabanner p {
+            font-size: 35px;
+        }
+
+      .bckgrndbox { 
+        /* border: 2px red solid; */
+        width: 400px;
+        height: 200px;
+        overflow: hidden;
+                }
+      
+      .bckgrndbox img {
+        width: 210%;
+        height: 440px;
+      }
+
+    }
